@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT</title>
+    <script src="https://kit.fontawesome.com/4b7d5cd39a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/css/styiling.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="~/photo/cut.png" alt="">
+        <ul>
+            <li>@Html.ActionLink("home", "Index", "Home")</li>
+            <li>@Html.ActionLink("education", "Education", "Home")</li>
+            <li>@Html.ActionLink("media", "Media", "Home")</li>
+            <li>@Html.ActionLink("about", "About", "Home")</li>
+        </ul>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+    <div class="footer">
+        <h3>Thinking Beyond</h3>
+        <p>Want to contact or know more about the Central University of Technology?</p>
+        <ul class="contact">
+            <li><a href="https://www.facebook.com/CUTFreeState"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/user/CUTFreeState"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com/cutfsonline"><i class="fa fa-twitter"></i></a></li>
+        
+        </ul>
+    </div>
+    <div class="copyright">
+        <p> copyright &copy;2023 <span>Khwanyane</span></p>
+    </div>
+    </footer>
+</body>
+</html>

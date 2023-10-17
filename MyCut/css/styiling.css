@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    
+}
+body , html{
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    position: relative;
+}
+.navbar{
+    width: 86%;
+    margin: auto;
+    padding: 34px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.home img {
+ max-width: 100%;
+    padding: 50px 0;  
+    width: 350px;
+    position: absolute;
+    right: 15%;
+}
+.graduate {
+    
+}
+
+.graddy{
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+.me p{
+    right: 15%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 21px;
+    position: relative;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-align:end;
+    color: black;
+    font-size: 20px;
+    
+}
+.navbar ul li::after{
+    content: '';
+    height: 4px;
+    width: 0%;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 1s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* img{
+    max-width: 100%;
+    padding: 50px 0;
+} */
+
+.intro{
+    font-family: sans-serif;
+    font-size: medium;
+}
+.about p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.graduate img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background:black;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition:0.5s;
+}
+.btn:hover{
+    background: whitesmoke;
+    color: black;
+}
+footer{
+   
+    bottom: 0;
+    background: whitesmoke;
+    position:static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    flex-direction: column;
+    height: auto;
+    width: 99vw;
+    font-family: sans-serif;
+    padding-top: 40px;
+    color: black;
+    
+    
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.footer h3{
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+.footer p{
+    max-width: 490px;
+    margin: 12px auto;
+    line-height: 27px;
+    font-size: 14px;
+
+}
+.contact{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact li{
+    margin: 0 12px;
+
+}
+
+.contact a{
+    text-decoration: solid;
+    color: black;
+
+}
+.contact a i{
+    font-size: 1.4rem;
+
+}
+
+/*.contact a:hover i{
+    color: blueviolet;
+    background: navy;
+}*/
+
+.copyright{
+    text-align: center;
+    width: 98vw;
+    padding: 24px 0;
+    
+}
+
+
+.home{
+    width: 100%;
+    min-height: 98vh;
+    padding: 11px 11%;
+    overflow: hidden;
+    margin-top: 9%;
+    max-width: 590px;
+    position:static;
+
+}
+.home h1{
+    font-size: 38px;
+    color: black;
+
+}
+
+
+.home p{
+    margin: 10px 0 28px;
+    color: black;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+
+}
+.row .column img{
+
+    width: 65%;
+   
+} 
+.pics img{
+    transition: transform .5s ease;
+}
+.pics img:hover{
+    transform: scale(1.1);
+}
+
+.row .column{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+
+h4{
+    font-size: medium;
+    margin: 16px auto;
+}
+
+.my-journey{
+   display: flex;
+   align-items: center;
+   width: 85%;
+   margin: auto;
+}
+
+
+.my-journey img{
+   flex: 0 50%;
+   max-width: 50%;
+   height:max-content;
+}
+.about-me{
+    font-size: 16px;
+    padding: 35px;
+    margin: 15px 0px;
+}
+.about-me p{
+    line-height: 1.5;
+    margin: 15px 0px;
+}
